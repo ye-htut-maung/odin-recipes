@@ -1,12 +1,26 @@
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 50px auto;
+  width: 70%;
 }
 
 img {
-  width: auto;
+  width: 400px;
   height: 400px;
+  object-fit: cover;
 }
 
 h2 {
+  display: block;
+  width: 350px;
   text-decoration: underline;
+}
+
+.ingredients-steps {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
 }
